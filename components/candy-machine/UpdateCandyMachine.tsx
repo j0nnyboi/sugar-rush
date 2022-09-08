@@ -1,6 +1,6 @@
 import { AnchorProvider, BN, Program } from '@project-serum/anchor'
-import { useAnchorWallet, useWallet } from '@solana/wallet-adapter-react'
-import { LAMPORTS_PER_SOL, PublicKey } from '@solana/web3.js'
+import { useAnchorWallet, useWallet } from '@j0nnyboi/wallet-adapter-react'
+import { LAMPORTS_PER_SOL, PublicKey } from '@safecoin/web3.js'
 import { useForm, useNotification, useRPC, useUploadCache } from 'hooks'
 import {
     DEFAULT_GATEKEEPER,
@@ -12,7 +12,7 @@ import {
     IFetchedCandyMachineConfig,
     updateV2,
     ICache,
-} from '@boxfish-studio/candymachine-client-sdk'
+} from '@leda-mint-io/candymachine-client-sdk'
 import { CandyMachineAction } from 'lib/enums'
 import { getCurrentDate, getCurrentTime, parseDateFromDateBN, parseDateToUTC, parseTimeFromDateBN } from 'lib/utils'
 import { FC, useEffect, useState } from 'react'

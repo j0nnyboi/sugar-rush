@@ -1,5 +1,5 @@
 import { AnchorProvider, BN } from '@project-serum/anchor'
-import { useAnchorWallet, useWallet } from '@solana/wallet-adapter-react'
+import { useAnchorWallet, useWallet } from '@j0nnyboi/wallet-adapter-react'
 import { useForm, useRPC, useUploadCache, useUploadFiles, useNotification } from 'hooks'
 import {
     DEFAULT_GATEKEEPER,
@@ -9,12 +9,12 @@ import {
     loadCandyProgramV2,
     verifyAssets,
     uploadV2,
-} from '@boxfish-studio/candymachine-client-sdk'
+} from '@leda-mint-io/candymachine-client-sdk'
 import { CandyMachineAction } from 'lib/enums'
 import { getCurrentDate, getCurrentTime, parseDateToUTC } from 'lib/utils'
 import React, { FC, useState, useEffect } from 'react'
 import { Box, Button, Spinner } from '@primer/react'
-import { WalletAdapterNetwork } from '@solana/wallet-adapter-base'
+import { WalletAdapterNetwork } from '@j0nnyboi/wallet-adapter-base'
 import { NotificationType } from 'lib/interfaces'
 
 const CreateCandyMachine: FC = () => {

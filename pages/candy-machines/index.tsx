@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useWallet } from '@solana/wallet-adapter-react'
+import { useWallet } from '@j0nnyboi/wallet-adapter-react'
 import { CandyMachineList, CreateCandyMachine, Popup, SearchBar, RefreshButton } from 'components'
 import { useNotification, useRPC } from 'hooks'
 import { candyMachinesState, candyMachineSearchState } from 'lib/recoil-store/atoms'

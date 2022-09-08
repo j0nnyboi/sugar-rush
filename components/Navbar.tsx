@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Image from 'next/image'
-import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
+import { WalletMultiButton } from '@j0nnyboi/wallet-adapter-react-ui'
 import { NetworkSelector, NetworkTps, Breadcrumb } from 'components'
 
 const Navbar: FC = () => {

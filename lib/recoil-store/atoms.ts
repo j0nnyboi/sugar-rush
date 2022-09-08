@@ -1,8 +1,8 @@
 import { Nft } from 'lib/nft/interfaces'
 import { INotification, NotificationType } from 'lib/interfaces'
 import { atom, RecoilState, selector } from 'recoil'
-import { WalletAdapterNetwork } from '@solana/wallet-adapter-base'
-import { Connection } from '@solana/web3.js'
+import { WalletAdapterNetwork } from '@j0nnyboi/wallet-adapter-base'
+import { Connection } from '@safecoin/web3.js'
 
 export const candyMachineSearchState: RecoilState<string> = atom<string>({
     key: 'candyMachineSearchState',

@@ -1,5 +1,5 @@
 import { Metaplex } from '@metaplex-foundation/js'
-import { Connection, PublicKey } from '@solana/web3.js'
+import { Connection, PublicKey } from '@safecoin/web3.js'
 import { Nft } from './interfaces'
 
 export async function getAllNftsByCM(candyMachineAccount: string | string[], connection: Connection): Promise<Nft[]> {

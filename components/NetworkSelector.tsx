@@ -1,8 +1,8 @@
 import { FC, useEffect, useRef } from 'react'
 import { useRecoilState } from 'recoil'
 import { networkState } from 'lib/recoil-store/atoms'
-import { WalletAdapterNetwork } from '@solana/wallet-adapter-base'
-import { Connection } from '@solana/web3.js'
+import { WalletAdapterNetwork } from '@j0nnyboi/wallet-adapter-base'
+import { Connection } from '@safecoin/web3.js'
 
 type Network = keyof typeof WalletAdapterNetwork
 

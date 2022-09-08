@@ -1,8 +1,8 @@
 import { AnchorProvider, Program } from '@project-serum/anchor'
-import { AnchorWallet, useAnchorWallet } from '@solana/wallet-adapter-react'
-import { LAMPORTS_PER_SOL, PublicKey, TransactionInstruction, Connection } from '@solana/web3.js'
+import { AnchorWallet, useAnchorWallet } from '@j0nnyboi/wallet-adapter-react'
+import { LAMPORTS_PER_SOL, PublicKey, TransactionInstruction, Connection } from '@safecoin/web3.js'
 import { useRPC } from 'hooks'
-import { loadCandyProgramV2, sendTransactionWithRetryWithKeypair } from '@boxfish-studio/candymachine-client-sdk'
+import { loadCandyProgramV2, sendTransactionWithRetryWithKeypair } from '@leda-mint-io/candymachine-client-sdk'
 import { UnwrapPromise } from 'lib/types'
 
 type Transaction = UnwrapPromise<ReturnType<typeof sendTransactionWithRetryWithKeypair>>

@@ -1,4 +1,4 @@
-import { useWallet } from '@solana/wallet-adapter-react'
+import { useWallet } from '@j0nnyboi/wallet-adapter-react'
 import { candyMachinesState } from 'lib/recoil-store/atoms'
 import { FC, useEffect } from 'react'
 import { useResetRecoilState } from 'recoil'

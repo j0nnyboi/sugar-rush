@@ -1,5 +1,5 @@
-import { WalletProvider } from '@solana/wallet-adapter-react'
-import { WalletModalProvider } from '@solana/wallet-adapter-react-ui'
+import { WalletProvider } from '@j0nnyboi/wallet-adapter-react'
+import { WalletModalProvider } from '@j0nnyboi/wallet-adapter-react-ui'
 import {
     GlowWalletAdapter,
     PhantomWalletAdapter,
@@ -8,7 +8,7 @@ import {
     SolletExtensionWalletAdapter,
     SolletWalletAdapter,
     TorusWalletAdapter,
-} from '@solana/wallet-adapter-wallets'
+} from '@j0nnyboi/wallet-adapter-wallets'
 import { Navbar, Footer, CheckConnectedWallet, NotificationManager } from 'components'
 import type { AppProps } from 'next/app'
 import { useMemo } from 'react'

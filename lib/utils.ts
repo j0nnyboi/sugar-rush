@@ -1,6 +1,6 @@
 import { BN } from '@project-serum/anchor'
-import { CANDY_MACHINE_PROGRAM_V2_ID } from '@boxfish-studio/candymachine-client-sdk'
-import { Connection, PublicKey } from '@solana/web3.js'
+import { CANDY_MACHINE_PROGRAM_V2_ID } from '@leda-mint-io/candymachine-client-sdk'
+import { Connection, PublicKey } from '@safecoin/web3.js'
 
 /**
  *

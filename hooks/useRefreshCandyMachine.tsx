@@ -1,9 +1,9 @@
-import { useAnchorWallet, useWallet } from '@solana/wallet-adapter-react'
+import { useAnchorWallet, useWallet } from '@j0nnyboi/wallet-adapter-react'
 import { AnchorProvider, Program, BN } from '@project-serum/anchor'
 import { useRPC } from 'hooks'
-import { PublicKey, LAMPORTS_PER_SOL, Connection } from '@solana/web3.js'
+import { PublicKey, LAMPORTS_PER_SOL, Connection } from '@safecoin/web3.js'
 import { useState } from 'react'
-import { CANDY_MACHINE_PROGRAM_V2_ID, CandyMachineAccount } from '@boxfish-studio/candymachine-client-sdk'
+import { CANDY_MACHINE_PROGRAM_V2_ID, CandyMachineAccount } from '@leda-mint-io/candymachine-client-sdk'
 
 const useRefreshCandyMachine = (account: string) => {
     const anchorWallet = useAnchorWallet()
